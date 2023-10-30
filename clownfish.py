@@ -31,8 +31,6 @@ async def smack(ctx):
         ctx (_type_): _description_
     """
     
-
-
 @bot.command(name="nice_egg")
 async def offer_egg(ctx):
     """ Offers the user an image of an egg.
@@ -54,4 +52,8 @@ async def dad_joke(ctx):
     """
     response = ""
 
+@bot.command(name="cat_meme")
+async def cat_meme(ctx):
+    response = ""
+    
 client.run(TOKEN)
